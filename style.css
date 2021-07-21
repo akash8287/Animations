@@ -32,7 +32,7 @@ body
     animation: animate 6s ease-in-out infinite;
     box-shadow: 0 10px 0 #efebed,
                inset 0 10px 0 #ececec;
-    animation-delay: calc(1s * var(--i));        
+    animation-delay: calc(-1s * var(--i));        
 
 }
 @keyframes animate
